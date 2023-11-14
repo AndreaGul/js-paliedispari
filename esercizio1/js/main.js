@@ -2,7 +2,7 @@
 // Creare una funzione per capire se la parola inserita è palindroma
 
 // dichiaro una variabile che prende come valore una parola tramite un prompt
-const parolaUtente = prompt('Inserisci una parola');
+const parolaUtente = prompt('Inserisci una parola').toLowerCase;
 
 //dichiaro una funzione che riceve come  argomento una parola
 
