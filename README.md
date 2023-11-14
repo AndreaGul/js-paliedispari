@@ -1,20 +1,24 @@
 ESERCIZIO 1
-Chiedere all'utente di inserire una parola creare una funzione per capire se la parola inserita è palindroma
+Parole palindrome
+Chiedere all'utente di inserire una parola.
+Creare una funzione per capire se la parola inserita è palindroma.
 
-dichiaro una variabile che prende come valore una parola tramite un prompt
+Dichiaro una variabile che prende come valore una parola tramite un prompt.
 
-dichiaro una funzione che riceve come valore di entrara una parola
+Dichiaro una funzione con nome palindroma che riceve come argomento una parola.
 
-metto una condizione dove se parola è not not a number ossia un numero deve ritornare non hai inserito una parola
+Metto una condizione dove se parola è not not a number ossia un numero deve ritornare non hai inserito una parola.
 
-altrimenti si procederà come segue
-per capire se una parola è palindroma devo scorrere le lettera della parola e vedere se le estremità sono uguali
+Altrimenti si procederà come segue.
+Per capire se una parola è palindroma devo scorrere le lettera della parola e vedere se specchiate sono uguali.
 
-nel for (istanzio due variabili i e j:i=0 e j uguale alla lunghezza della parola , i sarà minore della lunghezza della parola e j maggiore di 0, e l'operazione sara i++ e j--)
+Nel for (istanzio due variabili i e j:i=0 e j uguale alla lunghezza della parola , i sarà minore della lunghezza della parola e j maggiore di 0, e l'operazione sara i++ e j--).
 
-nel ciclo inplementero una condizione dove Se parola[i] (la lettera della parola in posizzione i) è diversa da parola[j] (la lettera in posizione j) ritornero dalla funzione la parola non è palindroma
+Nel ciclo inplementero una condizione dove Se parola[i] (la lettera della parola in posizzione i) è diversa da parola[j] (la lettera in posizione j) ritornero dalla funzione la parola non è palindroma.
 
-fuori dal ciclo stampero la parola è palindroma
+Altrimenti fuori dal ciclo stampero la parola è palindroma.
+
+Richiamo la funzione palindroma che riceve come argomento la parolaUtente.
 
 esercizio 2
 Pari e Dispari
