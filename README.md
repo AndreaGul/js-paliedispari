@@ -20,7 +20,7 @@ Altrimenti fuori dal ciclo stampero la parola è palindroma.
 
 Richiamo la funzione palindroma che riceve come argomento la parolaUtente.
 
-esercizio 2
+ESERCIZIO 2
 Pari e Dispari
 L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
 Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
@@ -28,9 +28,13 @@ Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 
-definisco una variabile con un prompt che chiede all'utente di scegliere tra pari o dispari
+Definisco una variabile con un prompt che chiede all'utente di scegliere tra pari o dispari.
 
-definisco un ulteriore varibile con propt che chiedere alutente di inserire un numero da 1 a 5
+Effettuo un controllo per vedere se l'utente inserisce la parola pari o dispari, utilizzando come condizione nel while che la parola non deve essere diversa dalla parola 'pari' o da 'dispari' quando verrà inserita una delle due parole pari o dispari il ciclo si interromperà.
+
+Definisco un ulteriore varibile con propt che chiedere alutente di inserire un numero da 1 a 5.
+
+E verifico se il numero inserito e compreso tra 1 e 5 con un while che ha come condizione che il numero dell'utente deve non essere minore di 1 o maggiore di 5.
 
 (nella funzione numero random)
 dichiaro una variabile e la definisco con un numero a caso da 1 a 5 compresi 1 e 5 grazie al metodo math.random
