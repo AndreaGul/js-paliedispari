@@ -9,6 +9,8 @@ Dichiaro una funzione con nome palindroma che riceve come argomento una parola.
 
 Metto una condizione dove se parola è not not a number ossia un numero deve ritornare non hai inserito una parola.
 
+Controllo anche che la stinga è vuota.
+
 Altrimenti si procederà come segue.
 Per capire se una parola è palindroma devo scorrere le lettera della parola e vedere se specchiate sono uguali.
 

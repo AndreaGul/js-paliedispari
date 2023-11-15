@@ -2,8 +2,8 @@
 // Creare una funzione per capire se la parola inserita è palindroma
 
 // dichiaro una variabile che prende come valore una parola tramite un prompt
-const parolaUtente = prompt('Inserisci una parola').toLowerCase;
-
+const parolaUtente = prompt('Inserisci una parola').toLowerCase();
+console.log(parolaUtente);
 //dichiaro una funzione che riceve come  argomento una parola
 
 function palindroma(parola) {
@@ -11,6 +11,11 @@ function palindroma(parola) {
   if (!isNaN(parola)) {
     return console.log('Non hai inserito una parola');
   }
+  //Controllo anche che la stinga è vuota.
+  else if (parola === '') {
+    return console.log('Non hai inserito una parola');
+  }
+
   // Altrimenti si procederà come segue.
   // Per capire se una parola è palindroma devo scorrere le lettera della parola e vedere se specchiate sono uguali.
 
