@@ -10,7 +10,6 @@
 
 // definisco una variabile con un prompt che chiede all'utente di scegliere tra pari o dispari
 
-/*
 let PDUtente;
 
 //Effettuo un controllo per vedere se l'utente inserisce la parola pari o dispari, utilizzando come condizione nel while che la parola non deve essere diversa dalla parola 'pari' o da 'dispari' quando verrà inserita una delle due parole pari o dispari il ciclo si interromperà.
@@ -21,7 +20,7 @@ while (PDUtente !== 'pari' && PDUtente !== 'dispari') {
 console.log("La scelta tra pari e dispari dell'utente è =", PDUtente);
 
 // definisco un ulteriore varibile con propt che chiedere all'utente di inserire un numero da 1 a 5
-*/
+
 let numUtente = 0;
 
 //E verifico se il numero inserito e compreso tra 1 e 5 con un while che ha come condizione che il numero dell'utente deve non essere minore di 1 o maggiore di 5.
@@ -54,18 +53,28 @@ const sumNum = numUtente + numComputer;
 function pariODispari(number) {
   // Metto una condizione che controlla se il resto del numero inserito nel valore richiesto dalla funzione diviso 2 è 0 allora ritorna pari.
   if (number % 2 === 0) {
-    return `Data la somma dei numeri, ${number} è pari`;
+    return 'pari';
   }
   // altrimenti dispari
-  return `Data la somma dei numeri, ${number} è dispari`;
+  return 'dispari';
 }
 
-// definisco una variabile con il valore di ritorno della funzione pari o dispari
+//Definisco una variabile con il valore di ritorno della funzione pari o dispari.
 
-const risulatatoPOD = pariODispari(sumNum);
+const risulatatoPOD = `Data la somma dei numeri, ${sumNum} è ${pariODispari(
+  sumNum
+)}`;
 
 console.log(risulatatoPOD);
 
-// tramite una condizione controllo
-// se il valore scelto dall'utente è uguale al valore della variabile di ritorno della funzione pari o dispari allora stampa in console ha vinto l'utente
-// altrimenti stampa ha vinto il computer
+// Tramite una condizione controllo.
+
+// Se il valore scelto dall'utente è uguale al valore della variabile di ritorno della funzione pari o dispari allora stampa in console ha vinto l'utente.
+
+if (PDUtente === pariODispari(sumNum)) {
+  console.log("Ha vinto l'utente");
+}
+// Altrimenti stampa ha vinto il computer.
+else {
+  console.log('Ha vinto il computer');
+}

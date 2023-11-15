@@ -53,8 +53,10 @@ Metto una condizione che controlla se il resto del numero inserito nel valore ri
 
 Altrimenti dispari.
 
-definisco una variabile con il valore di ritorno della funzione pari o dispari
+Definisco una variabile con il valore di ritorno della funzione pari o dispari.
 
-tramite una condizione controllo
-se il valore scelto dall'utente è uguale al valore della variabile di ritorno della funzione pari o dispari allora stampa in console ha vinto l'utente
-altrimenti stampa ha vinto il computer
+Tramite una condizione controllo.
+
+Se il valore scelto dall'utente è uguale al valore della variabile di ritorno della funzione pari o dispari allora stampa in console ha vinto l'utente.
+
+Altrimenti stampa ha vinto il computer.
