@@ -30,30 +30,41 @@ while (numUtente < 1 || numUtente > 5) {
 }
 console.log("Numero inserito dall'utene =", numUtente);
 
-// (nella funzione numero random)
+// (Nella funzione numero random)
 
 function numRandom() {
-  // dichiaro una variabile e la definisco con un numero a caso da 1 a 5 compresi 1 e 5 grazie al metodo math.random
+  // Dichiaro una variabile e la definisco con un numero a caso da 1 a 5 compresi 1 e 5 grazie al metodo math.random.
   const numRandom = +Math.floor(Math.random() * 5) + 1;
-  // e ritorno il valore della variabile
+  // E ritorno il valore della variabile
   return numRandom;
 }
 
-// il contenuto ritornato della funzione lo salvo in una variabile
+// il contenuto ritornato della funzione lo salvo in una variabile.
 
 const numComputer = numRandom();
 console.log('Numero generato per il computer =', numComputer);
 
-// dichiaro una variabile e la definisco come la somma del numero inserire dall'utente e il numero che viene ritornato dalla funzione
+// Dichiaro una variabile e la definisco come la somma del numero inserire dall'utente e il numero che viene ritornato dalla funzione.
 const sumNum = numUtente + numComputer;
 
-// inserisco il valore della somma come valore che la funzione deve controllare
+// Inserisco il valore della somma come valore che la funzione deve controllare.
 
-// (nella funzione pari o dispari)
-// metto una condizione che controlla se il resto del numero inserito nel valore richiesto dalla funzione diviso 2 è 0 ritorna pari
-// altrimenti dispari
+// (Nella funzione pari o dispari.)
+
+function pariODispari(number) {
+  // Metto una condizione che controlla se il resto del numero inserito nel valore richiesto dalla funzione diviso 2 è 0 allora ritorna pari.
+  if (number % 2 === 0) {
+    return `Data la somma dei numeri, ${number} è pari`;
+  }
+  // altrimenti dispari
+  return `Data la somma dei numeri, ${number} è dispari`;
+}
 
 // definisco una variabile con il valore di ritorno della funzione pari o dispari
+
+const risulatatoPOD = pariODispari(sumNum);
+
+console.log(risulatatoPOD);
 
 // tramite una condizione controllo
 // se il valore scelto dall'utente è uguale al valore della variabile di ritorno della funzione pari o dispari allora stampa in console ha vinto l'utente

@@ -36,19 +36,22 @@ Definisco un ulteriore varibile con propt che chiedere alutente di inserire un n
 
 E verifico se il numero inserito e compreso tra 1 e 5 con un while che ha come condizione che il numero dell'utente deve non essere minore di 1 o maggiore di 5.
 
-(nella funzione numero random)
+(Nella funzione numero random)
 dichiaro una variabile e la definisco con un numero a caso da 1 a 5 compresi 1 e 5 grazie al metodo math.random
-e ritorno il valore della variabile
 
-il contenuto ritornato della funzione lo salvo in una variabile
+E ritorno il valore della variabile.
 
-dichiaro una variabile e la definisco come la somma del numero inserire dall'utente e il numero che viene ritornato dalla funzione
+Il contenuto ritornato della funzione lo salvo in una variabile.
 
-inserisco il valore della somma come valore che la funzione deve controllare
+Dichiaro una variabile e la definisco come la somma del numero inserire dall'utente e il numero che viene ritornato dalla funzione.
 
-(nella funzione pari o dispari)
-metto una condizione che controlla se il resto del numero inserito nel valore richiesto dalla funzione diviso 2 è 0 ritorna pari
-altrimenti dispari
+Inserisco il valore della somma come valore che la funzione deve controllare:
+
+(Nella funzione pari o dispari.)
+
+Metto una condizione che controlla se il resto del numero inserito nel valore richiesto dalla funzione diviso 2 è 0 allora ritorna pari.
+
+Altrimenti dispari.
 
 definisco una variabile con il valore di ritorno della funzione pari o dispari
 
